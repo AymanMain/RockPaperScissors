@@ -11,7 +11,6 @@ function getComputerChoice(){
     }
     return botChoice; 
 };
-
 function getHumanChoice(){
     let HumanChoice=prompt("Choose wisely !","Rock , Paper , Scissors");
     HumanChoice=HumanChoice.toLowerCase();
@@ -21,7 +20,6 @@ function getHumanChoice(){
     };
     return HumanChoice;
 };
-
 function playRound(CPU,Player){
    
     if(CPU==Player){
@@ -37,7 +35,6 @@ function playRound(CPU,Player){
     };
     return res;
 };
-
 // Main Game
 function playGame(){
     let ComputerScore=0;
@@ -65,5 +62,8 @@ function playGame(){
     HumanScore=0;
     ComputerScore=0;
 };
+
+
+
 
 playGame();
